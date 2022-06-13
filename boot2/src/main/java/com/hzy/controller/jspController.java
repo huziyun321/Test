@@ -11,6 +11,7 @@ public class jspController {
     System.out.println("hello motherfucker");
     System.out.println("hello motherfucker2");
     System.out.println("hello motherfucker2");
+    System.out.println("hello motherfucker2");
     return "index";
 
     }
