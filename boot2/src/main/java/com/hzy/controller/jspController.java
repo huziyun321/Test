@@ -9,6 +9,7 @@ public class jspController {
 @RequestMapping("jsp")
     public String jsp(){
     System.out.println("hello motherfucker");
+    System.out.println("hello motherfucker2");
     return "index";
 
     }
