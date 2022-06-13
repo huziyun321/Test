@@ -10,6 +10,7 @@ public class jspController {
     public String jsp(){
     System.out.println("hello motherfucker");
     System.out.println("hello motherfucker2");
+    System.out.println("hello motherfucker2");
     return "index";
 
     }
