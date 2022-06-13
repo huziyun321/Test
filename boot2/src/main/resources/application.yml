@@ -1,0 +1,27 @@
+
+spring:
+  mvc:
+    view:
+      prefix: /
+      suffix: .jsp
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springboot?characterEncoding=UTF-8
+    username: root
+    password: Hzy321
+server:
+  servlet:
+    jsp:
+      init-parameters:
+        development: true
+  port: 8083
+mybatis:
+  mapper-locations: classpath:com/hzy/mapper/*.xml
+  type-aliases-package: com.hzy.entity
+
+logging:
+  level:
+    root: info
+    com.hzy.dao: debug
+
