@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class jspController {
 @RequestMapping("jsp")
     public String jsp(){
+    System.out.println("hello motherfucker");
     return "index";
 
     }
